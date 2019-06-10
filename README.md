@@ -7,12 +7,12 @@
   2. run the appliction 
   3. one must attache the token while accessing the apis
   
-- Tools and Technology
+- Tools and Technology:
   mongodb, mongoose, mongodb compass, Postman, nodeJs
   
 - List of Apis
 
-1.User Registration 
+1.User Registration: 
 Method Post
 http://localhost:8000/user/registration
 
@@ -28,7 +28,7 @@ pass data in body as below
      "Contact":9448184425
 }
 
-2.User login
+2.User login: 
 Method Post
 http://localhost:8000/user/login/authentication
 user can login only by registered email and password
@@ -38,7 +38,7 @@ user can login only by registered email and password
      "Password": "samir123"
 }
 
-3.add money to wallet
+3.add money to wallet: 
 Method PUT
 http://localhost:8000/user/addmoney
 pass data in the body as below
@@ -48,7 +48,7 @@ pass data in the body as below
    "amount":200
 }
 
-4.send money to others customer
+4.send money to others customer:
 Method PUT
 http://localhost:8000/user/sendmoney
 
@@ -59,11 +59,11 @@ pass require details in body
    "amount":92
 }
 
-5.customers all transactions
+5.customers all transactions: 
 Method Get
 http://localhost:8000/users/alltransactions/8866203493
 
-6. admin can see customer's balance 
+6. admin can see customer's balance:
    Method Get
   user role must be admin
 http://localhost:8000/users/allusers/userrole
